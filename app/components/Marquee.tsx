@@ -60,7 +60,7 @@ const ReviewCard = ({ name, scope, body, img }: { name: string; scope: string; b
   )
 }
 
-export function MarqueeDemo() {
+export function ProjectsMarquee() {
   return (
     <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-background md:shadow-xl">
       <Marquee pauseOnHover className="[--duration:15s]">

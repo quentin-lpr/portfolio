@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { MarqueeDemo } from "../components/Marquee"
+import { ProjectsMarquee } from "../components/Marquee"
 
 export default function Skills() {
   return (
@@ -17,7 +17,7 @@ export default function Skills() {
           <p className="pointer-events-none ml-2 select-none text-2xl text-muted-foreground">Epitech Student</p>
         </div>
       </div>
-      <MarqueeDemo />
+      <ProjectsMarquee />
     </div>
   )
 }
