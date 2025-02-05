@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { ProjectsMarquee } from "../components/Marquee"
+import { ProjectsMarquee } from "./components/Marquee"
 
 export default function Skills() {
   return (
