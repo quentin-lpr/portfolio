@@ -33,18 +33,18 @@ export function ProfessionalTimeline() {
           </span>
           <Separator className="my-4 h-[2px] w-48" />
           <div className="ml-6 space-y-2">
-            <span>
+            <div>
               — Diploma of Expert in Information Technologies
               <Badge variant="outline" className="-translate-y-[1px] ml-2">
                 in progress
               </Badge>
-            </span>
-            <span>
+            </div>
+            <div>
               — Title of Software Engineering Expert registered with the RNCP Level 7
               <Badge variant="outline" className="-translate-y-[1px] ml-2">
                 in progress
               </Badge>
-            </span>
+            </div>
           </div>
         </div>
       ),
