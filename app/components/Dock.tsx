@@ -30,7 +30,7 @@ export function Dock() {
   return (
     <div className="-translate-x-1/2 fixed bottom-12 left-1/2 z-[1000]">
       <div className="w-auto">
-        <FloatingDock items={links} />
+        <FloatingDock items={links} desktopClassName="border-[.5px] border-background/25" />
       </div>
     </div>
   )
