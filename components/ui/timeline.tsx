@@ -32,9 +32,9 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
   return (
-    <div className="w-full bg-background font-sans md:px-10 mt-24" ref={containerRef} >
+    <div className="w-full bg-background font-sans md:px-10 mt-36" ref={containerRef} >
       <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-5xl -mb-12 text-white max-w-4xl">
+        <h2 className="text-lg md:text-5xl -mb-12 text-white max-w-4xl mx-auto text-center font-bold underline decoration-2 underline-offset-[14px] decoration-wavy decoration-foreground/50">
           Timeline of my journey
         </h2>
       </div>

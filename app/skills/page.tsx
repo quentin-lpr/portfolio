@@ -26,7 +26,7 @@ export default function Skills() {
     <div className="mx-auto mt-24 max-w-screen-xl pb-24">
       <Header />
       <ProjectsMarquee />
-      <Separator />
+      <Separator className="mt-12" />
       <ProfessionalTimeline />
     </div>
   )
