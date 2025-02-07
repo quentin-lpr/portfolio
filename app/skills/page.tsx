@@ -23,7 +23,7 @@ function Header() {
 
 export default function Skills() {
   return (
-    <div className="mx-auto mt-24 max-w-screen-xl pb-24">
+    <div className="mx-auto mt-24 max-w-screen-xl pb-36">
       <Header />
       <ProjectsMarquee />
       <Separator className="mt-12" />
